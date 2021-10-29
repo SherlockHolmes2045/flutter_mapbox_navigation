@@ -16,12 +16,12 @@ class _MyAppState extends State<MyApp> {
   String _instruction = "";
   final _origin = WayPoint(
       name: "Way Point 1",
-      latitude: 38.9111117447887,
-      longitude: -77.04012393951416);
+      latitude: 3.8179194,
+      longitude: 11.5134403);
   final _stop1 = WayPoint(
       name: "Way Point 2",
-      latitude: 38.91113678979344,
-      longitude: -77.03847169876099);
+      latitude: 3.8624611,
+      longitude: 11.4978072);
   final _stop2 = WayPoint(
       name: "Way Point 3",
       latitude: 38.91040213277608,
@@ -61,9 +61,9 @@ class _MyAppState extends State<MyApp> {
     _options = MapBoxOptions(
         //initialLatitude: 36.1175275,
         //initialLongitude: -115.1839524,
-        zoom: 15.0,
-        tilt: 0.0,
-        bearing: 0.0,
+        zoom: 22.0,
+        tilt: 80.0,
+        bearing: 30.0,
         enableRefresh: false,
         alternatives: true,
         voiceInstructionsEnabled: true,
