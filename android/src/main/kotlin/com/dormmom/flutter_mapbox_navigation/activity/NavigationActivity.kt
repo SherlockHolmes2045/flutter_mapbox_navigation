@@ -296,7 +296,7 @@ class NavigationActivity : AppCompatActivity(),
         val originCoordinate = currentRoute?.routeOptions()?.coordinates()?.get(0)
         return CameraPosition.Builder()
                 .target(LatLng(originCoordinate!!.latitude(), originCoordinate.longitude()))
-                .zoom(FlutterMapboxNavigationPlugin.zoom)
+                .zoom(20.0)
                 .bearing(FlutterMapboxNavigationPlugin.bearing)
                 .tilt(FlutterMapboxNavigationPlugin.tilt)
                 .build()
