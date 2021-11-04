@@ -61,7 +61,7 @@ class _MyAppState extends State<MyApp> {
     _options = MapBoxOptions(
         //initialLatitude: 36.1175275,
         //initialLongitude: -115.1839524,
-        zoom: 22.0,
+        zoom: 15.0,
         tilt: 80.0,
         bearing: 30.0,
         enableRefresh: false,

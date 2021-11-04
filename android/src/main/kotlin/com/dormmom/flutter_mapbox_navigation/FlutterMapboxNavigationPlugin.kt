@@ -78,7 +78,7 @@ public class FlutterMapboxNavigationPlugin: FlutterPlugin, MethodCallHandler, Ev
     var mapStyleUrlNight: String? = null
     var navigationLanguage = "en"
     var navigationVoiceUnits = DirectionsCriteria.IMPERIAL
-    var zoom = 22.0
+    var zoom = 15.0
     var bearing = 30.0
     var tilt = 80.0
     var distanceRemaining: Float? = null
