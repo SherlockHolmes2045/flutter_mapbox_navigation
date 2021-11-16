@@ -155,7 +155,7 @@ class NavigationActivity : AppCompatActivity(),
                             .build()
 
             navigationView?.startNavigation(options)
-            navigationView?.startCamera()
+            navigationView?.startCamera(directionsRoute)
 
             if(FlutterMapboxNavigationPlugin.simulateRoute)
             {
