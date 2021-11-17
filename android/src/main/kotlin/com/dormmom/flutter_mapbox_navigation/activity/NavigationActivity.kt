@@ -344,6 +344,7 @@ class NavigationActivity : AppCompatActivity(),
         override fun onRoutesReady(routes: List<DirectionsRoute>) {
             if (routes.isNotEmpty()) buildAndStartNavigation(routes[0]) else {
                 sendEvent(MapBoxEvents.ROUTE_BUILD_NO_ROUTES_FOUND)
+                navigationView?.startCamera(routes[0])
             }
         }
         override fun onRoutesRequestFailure(throwable: Throwable, routeOptions: RouteOptions) {
