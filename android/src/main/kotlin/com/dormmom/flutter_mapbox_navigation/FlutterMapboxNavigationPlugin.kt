@@ -215,8 +215,7 @@ public class FlutterMapboxNavigationPlugin: FlutterPlugin, MethodCallHandler, Ev
 
   private fun beginNavigation(wayPoints: List<Point>)
   {
-    NavigationLauncher.stopNavigation(currentActivity);
-      NavigationLauncher.startNavigation(currentActivity, wayPoints);
+    NavigationLauncher.startNavigation(currentActivity, wayPoints);
   }
 
 
